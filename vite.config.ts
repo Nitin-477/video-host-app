@@ -1,4 +1,3 @@
-// vite.config.ts (HOST APP)
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import federation from '@originjs/vite-plugin-federation';
