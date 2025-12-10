@@ -1,7 +1,5 @@
-// src/App.tsx (HOST APP)
 import React, { Suspense, lazy } from 'react';
 
-// Lazy load the remote video editor
 const VideoEditor = lazy(() => import('video_editor_remote/VideoEditor'));
 
 function App() {
